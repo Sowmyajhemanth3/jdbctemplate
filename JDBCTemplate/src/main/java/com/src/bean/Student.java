@@ -5,7 +5,7 @@ public class Student {
 	private String stdid;
 	private String stdpwd;
 	private String stdname;
-	
+	private String State;
 	private int stdage;
 	private String stdaddress;
 	private long stdmob;
@@ -65,6 +65,12 @@ public class Student {
 	public String toString() {
 		return "Student [stdid=" + stdid + ", stdname=" + stdname + ", stdaddress=" + stdaddress + ", stdage=" + stdage
 				+ ", stdmob=" + stdmob + ", stdpwd=" + stdpwd + "]";
+	}
+	public String getState() {
+		return State;
+	}
+	public void setState(String state) {
+		State = state;
 	}
 	
 }
