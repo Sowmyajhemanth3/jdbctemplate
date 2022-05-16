@@ -6,6 +6,7 @@ public class Student {
 	private String stdpwd;
 	private String stdname;
 	private String State;
+	private String pincode;
 	private int stdage;
 	private String stdaddress;
 	private long stdmob;
@@ -71,6 +72,12 @@ public class Student {
 	}
 	public void setState(String state) {
 		State = state;
+	}
+	public String getPincode() {
+		return pincode;
+	}
+	public void setPincode(String pincode) {
+		this.pincode = pincode;
 	}
 	
 }
